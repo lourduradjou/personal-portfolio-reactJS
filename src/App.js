@@ -1,9 +1,9 @@
 import ImageOne from './components/background/ImageOne'
 import ImageTwo from './components/background/ImageTwo'
 import ImageThree from './components/background/ImageThree'
-import Text from './components/background/text'
 import Navbar from './components/Navbar'
 import About from './components/About'
+
 
 const App = () => (
 	<div className='font-[outfit]'>
@@ -11,7 +11,6 @@ const App = () => (
 		<ImageOne />
 		<About />
 		<ImageTwo />
-		<Text />
 		<ImageThree />
 	</div>
 )
