@@ -6,6 +6,7 @@ module.exports = {
 			fontFamily: {
 				outfit: ['outfit', 'sans-serif'],
 				roboto: ['Roboto', 'sans-serif'],
+				inspiration: ['Inspiration', 'cursive', 'sans-serif'],
 			},
 			backgroundImage: {
 				gradient: 'linear-gradient(to right, #3c006a,#f74ca4)',
