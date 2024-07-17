@@ -7,10 +7,10 @@ const About = () => {
 	const handleClick = () => {}
 	return (
 		<section
-			className='md:flex-row flex justify-around items-center w-full h-full p-10 md:p-6 bg-[snow-white] max-w-[1440px] mt-10 flex-col'
+			className='md:flex-row flex justify-around items-center w-full h-full p-14 bg-[snow-white] max-w-[1440px] mt-10 flex-col '
 			id='About'
 		>
-			<img src={eduImg} alt='education animated looks studying' />
+			<img src={eduImg} alt='education animated looks studying'/>
 			<div>
 				<div className='text-xl word-spacing-wide text-justify px-10 border-2 border-black py-8 m-4 bg-slate-100 drop-shadow-xl'>
 					<div className='flex justify-around items-center drop-shadow-lg bg-slate-200 mb-8'>
@@ -28,8 +28,8 @@ const About = () => {
 							Learner
 						</h1>
 					</div>
-					<div>
-						<p className=' text-[1rem] text-justify'>
+					<div className=''>
+						<p className=' text-[.9rem] text-justify'>
 							<span className='inline-block align-top text-[60px] font-bold text-gray-500 px-4 italic'>
 								"
 							</span>

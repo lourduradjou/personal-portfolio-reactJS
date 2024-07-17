@@ -4,7 +4,6 @@ import ImageThree from './components/background/ImageThree'
 import Navbar from './components/Navbar'
 import About from './components/About'
 
-
 const App = () => (
 	<div className='font-[outfit]'>
 		<Navbar />
