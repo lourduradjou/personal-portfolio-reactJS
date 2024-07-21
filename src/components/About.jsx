@@ -7,13 +7,17 @@ const About = () => {
 	const handleClick = () => {}
 	return (
 		<section
-			className='md:flex-row flex justify-around items-center w-full h-full p-14 bg-[snow-white] max-w-[1440px] mt-10 flex-col '
+			className='md:flex-row flex justify-around items-center w-full h-full p-14 bg-[snow-white] max-w-[1440px] mt-10 flex-col select-none'
 			id='About'
 		>
-			<img src={eduImg} alt='education animated looks studying'/>
-			<div>
-				<div className='text-xl word-spacing-wide text-justify px-10 border-2 border-black py-8 m-4 bg-slate-100 drop-shadow-xl'>
-					<div className='flex justify-around items-center drop-shadow-lg bg-slate-200 mb-8'>
+			<img
+				src={eduImg}
+				alt='education animated looks studying'
+				className='rounded-full'
+			/>
+			<div className='rounded-md ml-4	'>
+				<div className='text-xl word-spacing-wide text-justify px-10 border-2 border-black py-8 m-[2px] bg-slate-100 drop-shadow-xl rounded-md text-wrap'>
+					<div className='flex w-full h-full justify-around items-center drop-shadow-lg bg-slate-200 mb-8'>
 						<img
 							src={myPhoto}
 							className='m-4 max-w-[50px] h-auto  rounded-full'
@@ -28,7 +32,7 @@ const About = () => {
 							Learner
 						</h1>
 					</div>
-					<div className=''>
+					<div>
 						<p className=' text-[.9rem] text-justify'>
 							<span className='inline-block align-top text-[60px] font-bold text-gray-500 px-4 italic'>
 								"
@@ -44,12 +48,7 @@ const About = () => {
 							flair for designing intuitive user interfaces and
 							robust backend systems. From crafting elegant React
 							components to architecting seamless user
-							experiences, I thrive on challenges that allow me to
-							merge my analytical mindset with my passion for
-							designing. My ultimate goal is to master artificial
-							intelligence and machine learning, leveraging my
-							proactive and resourceful approach to contribute
-							meaningfully to the future of technology.{' '}
+							experiences,.{' '}
 							<span className='inline-block align-top font-bold text-gray-500 text-[60px] italic py-2'>
 								"
 							</span>
@@ -58,7 +57,7 @@ const About = () => {
 					<div className='w-full flex justify-center'>
 						{/* button to point to the resume */}
 						<button
-							className=' bg-red-600 text-white drop-shadow-xl px-8 py-2 rounded-full text-2xl hover:bg-gray-500 duration-500 '
+							className='flex justify-center items-center bg-red-600 text-white drop-shadow-xl px-8 py-2 rounded-full text-2xl hover:bg-gray-500 duration-500 '
 							onClick={handleClick}
 						>
 							Resume

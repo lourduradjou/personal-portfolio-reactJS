@@ -1,4 +1,4 @@
-import img1 from '../img/projects/img1.jpg';
+import img1 from '../img/projects/img1.png';
 import img2 from '../img/projects/img2.jpg';
 import img3 from '../img/projects/img3.jpg';
 import img4 from '../img/projects/img4.jpg';
@@ -13,6 +13,8 @@ const data = [
   {
     id: 1,
     img: img1,
+    githubLink: 'https://github.com/lourduradjou/finance-data-website-frontend-react',
+    activeLink: 'https://lourduradjou.github.io/finance-data-website-frontend-react/',
   },
   {
     id: 2,

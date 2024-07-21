@@ -33,32 +33,40 @@ const Navbar = () => {
 					<ul className='flex justify-center items-center'>
 						<li
 							className={`${
-								active === 'Home' ? 'bg-slate-200 text-red-600' : ''
-							} m-2 px-4 py-2 font-medium text-lg hover:bg-slate-200 rounded-full duration-500 hover:text-red-600 hover:cursor-pointer select-none`}
+								active === 'Home'
+									? 'bg-yellow-400 text-black'
+									: ''
+							} m-2 px-4 py-2 font-medium text-lg hover:bg-blue-200 rounded-full duration-500 hover:text-black hover:cursor-pointer select-none`}
 							onClick={() => scroolToView('Home')}
 						>
 							Home
 						</li>
 						<li
 							className={`${
-								active === 'About' ? 'bg-slate-200 text-red-600' : ''
-							} m-2 px-4 py-2 font-medium text-lg hover:bg-slate-200 rounded-full duration-500 hover:text-red-600 hover:cursor-pointer select-none`}
+								active === 'About'
+									? 'bg-yellow-400 text-black'
+									: ''
+							} m-2 px-4 py-2 font-medium text-lg hover:bg-blue-200 rounded-full duration-500 hover:text-black hover:cursor-pointer select-none`}
 							onClick={() => scroolToView('About')}
 						>
 							About
 						</li>
 						<li
 							className={`${
-								active === 'Projects' ? 'bg-slate-200 text-red-600' : ''
-							} m-2 px-4 py-2 font-medium text-lg hover:bg-slate-200 rounded-full duration-500 hover:text-red-600 hover:cursor-pointer select-none`}
+								active === 'Projects'
+									? 'bg-yellow-400 text-black'
+									: ''
+							} m-2 px-4 py-2 font-medium text-lg hover:bg-blue-200 rounded-full duration-500 hover:text-black hover:cursor-pointer select-none`}
 							onClick={() => scroolToView('Projects')}
 						>
 							Projects
 						</li>
 						<li
 							className={`${
-								active === 'Contact Me' ? 'bg-slate-200 text-red-600' : ''
-							} m-2 px-4 py-2 font-medium text-lg hover:bg-slate-200 rounded-full duration-500 hover:text-red-600 hover:cursor-pointer select-none`}
+								active === 'Contact Me'
+									? 'bg-yellow-400 text-black'
+									: ''
+							} m-2 px-4 py-2 font-medium text-lg hover:bg-blue-200 rounded-full duration-500 hover:text-black hover:cursor-pointer select-none`}
 							onClick={() => scroolToView('Contact Me')}
 						>
 							Contact Me
@@ -97,24 +105,38 @@ const Navbar = () => {
 						<ul className='w-full'>
 							<li
 								className={`${
-									active === 'Home' ? 'bg-gray-800 text-white' : ''
+									active === 'Home'
+										? 'bg-gray-800 text-white'
+										: ''
 								} w-full py-2  font-medium text-lg hover:bg-slate-400  duration-200 border-b-2 border-b-gray-400`}
 							>
 								Home
 							</li>
-							<li className={`${
-									active === 'About' ? 'bg-gray-800 text-white' : ''
-								} w-full py-2  font-medium text-lg hover:bg-slate-400  duration-200 border-b-2 border-b-gray-400`}>
+							<li
+								className={`${
+									active === 'About'
+										? 'bg-gray-800 text-white'
+										: ''
+								} w-full py-2  font-medium text-lg hover:bg-slate-400  duration-200 border-b-2 border-b-gray-400`}
+							>
 								About
 							</li>
-							<li className={`${
-									active === 'Projects' ? 'bg-gray-800 text-white' : ''
-								} w-full py-2  font-medium text-lg hover:bg-slate-400  duration-200 border-b-2 border-b-gray-400`}>
+							<li
+								className={`${
+									active === 'Projects'
+										? 'bg-gray-800 text-white'
+										: ''
+								} w-full py-2  font-medium text-lg hover:bg-slate-400  duration-200 border-b-2 border-b-gray-400`}
+							>
 								Projects
 							</li>
-							<li className={`${
-									active === 'Contact Me' ? 'bg-gray-800 text-white' : ''
-								} w-full py-2  font-medium text-lg hover:bg-slate-400  duration-200 border-b-2 border-b-gray-400`}>
+							<li
+								className={`${
+									active === 'Contact Me'
+										? 'bg-gray-800 text-white'
+										: ''
+								} w-full py-2  font-medium text-lg hover:bg-slate-400  duration-200 border-b-2 border-b-gray-400`}
+							>
 								Contact Me
 							</li>
 						</ul>
