@@ -17,62 +17,66 @@ import python from '../img/skills/python.png'
 import tailwind from '../img/skills/tailwind.png'
 import nodeJs from '../img/skills/nodeJs.png'
 
-const Skills = () => {
+const Skills = ({ width, duration, iconSize, showSkills }) => {
 	return (
-		<Slider
-			width='100px'
-			duration={40}
-			pauseOnHover={true}
-			blurBorders={false}
-			blurBoderColor={'#fff'}
-		>
-			<Slider.Slide>
-				<img src={html} alt='any' className='w-10' />
-			</Slider.Slide>
-			<Slider.Slide>
-				<img src={css} alt='any' className='w-10' />
-			</Slider.Slide>
-			<Slider.Slide>
-				<img src={js} alt='any' className='w-10' />
-			</Slider.Slide>
-			<Slider.Slide>
-				<img src={reactJs} alt='any' className='w-10' />
-			</Slider.Slide>
-			<Slider.Slide>
-				<img src={nodeJs} alt='any' className='w-10' />
-			</Slider.Slide>
-			<Slider.Slide>
-				<img src={express} alt='any' className='w-10' />
-			</Slider.Slide>
-			<Slider.Slide>
-				<img src={mongodb} alt='any' className='w-10' />
-			</Slider.Slide>
-			<Slider.Slide>
-				<img src={figma} alt='any' className='w-10' />
-			</Slider.Slide>
-			<Slider.Slide>
-				<img src={tailwind} alt='any' className='w-10' />
-			</Slider.Slide>
-			<Slider.Slide>
-				<img src={bootstrap} alt='any' className='w-10' />
-			</Slider.Slide>
-			<Slider.Slide>
-				<img src={aws} alt='any' className='w-10' />
-			</Slider.Slide>
-			<Slider.Slide>
-				<img src={azure} alt='any' className='w-10' />
-			</Slider.Slide>
-			<Slider.Slide>
-				<img src={pandas} alt='any' className='w-10' />
-			</Slider.Slide>
-			<Slider.Slide>
-				<img src={numpy} alt='any' className='w-10' />
-			</Slider.Slide>
-			<Slider.Slide>
-				<img src={python} alt='any' className='w-10' />
-			</Slider.Slide>
-
-		</Slider>
+		<>
+			{showSkills ? <h1 className='text-center font-bold text-4xl text-white p-6'>
+				Skills
+			</h1> : null}
+			<Slider
+				width={width}
+				duration={duration}
+				pauseOnHover={true}
+				blurBorders={false}
+				blurBoderColor={'#fff'}
+			>
+				<Slider.Slide>
+					<img src={html} alt='any' className={iconSize} />
+				</Slider.Slide>
+				<Slider.Slide>
+					<img src={css} alt='any' className={iconSize} />
+				</Slider.Slide>
+				<Slider.Slide>
+					<img src={js} alt='any' className={iconSize} />
+				</Slider.Slide>
+				<Slider.Slide>
+					<img src={reactJs} alt='any' className={iconSize} />
+				</Slider.Slide>
+				<Slider.Slide>
+					<img src={nodeJs} alt='any' className={iconSize} />
+				</Slider.Slide>
+				<Slider.Slide>
+					<img src={express} alt='any' className={iconSize} />
+				</Slider.Slide>
+				<Slider.Slide>
+					<img src={mongodb} alt='any' className={iconSize} />
+				</Slider.Slide>
+				<Slider.Slide>
+					<img src={figma} alt='any' className={iconSize} />
+				</Slider.Slide>
+				<Slider.Slide>
+					<img src={tailwind} alt='any' className={iconSize} />
+				</Slider.Slide>
+				<Slider.Slide>
+					<img src={bootstrap} alt='any' className={iconSize} />
+				</Slider.Slide>
+				<Slider.Slide>
+					<img src={aws} alt='any' className={iconSize} />
+				</Slider.Slide>
+				<Slider.Slide>
+					<img src={azure} alt='any' className={iconSize} />
+				</Slider.Slide>
+				<Slider.Slide>
+					<img src={pandas} alt='any' className={iconSize} />
+				</Slider.Slide>
+				<Slider.Slide>
+					<img src={numpy} alt='any' className={iconSize} />
+				</Slider.Slide>
+				<Slider.Slide>
+					<img src={python} alt='any' className={iconSize} />
+				</Slider.Slide>
+			</Slider>
+		</>
 	)
 }
 

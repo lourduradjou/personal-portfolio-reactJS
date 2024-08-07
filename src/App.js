@@ -1,13 +1,11 @@
 import React, { useEffect } from 'react'
 import ImageOne from './components/background/ImageOne'
-import ImageTwo from './components/background/ImageTwo'
-import ImageThree from './components/background/ImageThree'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import { FaArrowUp } from 'react-icons/fa'
 import Projects from './components//Projects'
 import Footer from './components/Footer'
-import SkillsBig from './components/SkillsBig'
+import Skills from './components/Skills'
 
 const App = () => {
 	useEffect(() => {
@@ -47,7 +45,7 @@ const App = () => {
 			>
 				<FaArrowUp className='text-4xl' />
 			</div>
-			<SkillsBig />
+			<Skills width='200px' duration={30} iconSize='w-24' showSkills={true} />
 			<About />
 			<Projects />
 			<Footer />

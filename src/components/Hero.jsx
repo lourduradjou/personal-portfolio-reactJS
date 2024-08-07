@@ -3,7 +3,6 @@ import myPhoto from '../img/myPhoto.jpeg'
 import TypingAnimator from 'react-typing-animator'
 import Skills from './Skills'
 
-
 const Hero = () => {
 	const textArray = [
 		'Frontend-developer',
@@ -50,7 +49,12 @@ const Hero = () => {
 								Resume
 							</button>
 							<div className='w-[350px] mx-auto mt-4'>
-								<Skills />
+								<Skills
+									width='100px'
+									duration={40}
+									iconSize='w-10'
+									showSkills={false}
+								/>
 							</div>
 						</p>
 					</div>
