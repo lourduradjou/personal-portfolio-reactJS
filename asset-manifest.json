@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/lourduradjou/personal-portfolio-reactJS/static/css/main.48a648da.css",
+    "main.js": "/lourduradjou/personal-portfolio-reactJS/static/js/main.1a64be84.js",
+    "static/media/main.jpg": "/lourduradjou/personal-portfolio-reactJS/static/media/main.111a1db8036ed0c69938.jpg",
+    "static/media/img10.jpg": "/lourduradjou/personal-portfolio-reactJS/static/media/img10.e9d3b66927f902ff6d93.jpg",
+    "static/media/img2.jpg": "/lourduradjou/personal-portfolio-reactJS/static/media/img2.e9d3b66927f902ff6d93.jpg",
+    "static/media/img3.jpg": "/lourduradjou/personal-portfolio-reactJS/static/media/img3.e9d3b66927f902ff6d93.jpg",
+    "static/media/img4.jpg": "/lourduradjou/personal-portfolio-reactJS/static/media/img4.e9d3b66927f902ff6d93.jpg",
+    "static/media/img5.jpg": "/lourduradjou/personal-portfolio-reactJS/static/media/img5.e9d3b66927f902ff6d93.jpg",
+    "static/media/img6.jpg": "/lourduradjou/personal-portfolio-reactJS/static/media/img6.e9d3b66927f902ff6d93.jpg",
+    "static/media/img7.jpg": "/lourduradjou/personal-portfolio-reactJS/static/media/img7.e9d3b66927f902ff6d93.jpg",
+    "static/media/img8.jpg": "/lourduradjou/personal-portfolio-reactJS/static/media/img8.e9d3b66927f902ff6d93.jpg",
+    "static/media/img9.jpg": "/lourduradjou/personal-portfolio-reactJS/static/media/img9.e9d3b66927f902ff6d93.jpg",
+    "static/media/myPhoto.jpeg": "/lourduradjou/personal-portfolio-reactJS/static/media/myPhoto.02efa6df6b165d124ca4.jpeg",
+    "static/media/img1.png": "/lourduradjou/personal-portfolio-reactJS/static/media/img1.4cb0f3fcb9f04ccbe083.png",
+    "static/media/educationImg.png": "/lourduradjou/personal-portfolio-reactJS/static/media/educationImg.9e4fa39f7da6ba886168.png",
+    "index.html": "/lourduradjou/personal-portfolio-reactJS/index.html",
+    "main.48a648da.css.map": "/lourduradjou/personal-portfolio-reactJS/static/css/main.48a648da.css.map",
+    "main.1a64be84.js.map": "/lourduradjou/personal-portfolio-reactJS/static/js/main.1a64be84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48a648da.css",
+    "static/js/main.1a64be84.js"
+  ]
+}
